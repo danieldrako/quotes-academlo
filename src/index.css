@@ -1,0 +1,65 @@
+h2, p {
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+span {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 1rem;
+}
+h1 {
+  font-size: 1.5rem;
+}
+body {
+  margin: 0;
+}
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+}
+.box {
+  padding: 1rem 1rem;
+  max-width: 80%;
+  background-color: white;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: 1px 1px 20px #0005;
+  overflow: hidden;
+}
+
+
+.box_btn {
+  margin: 5px 5px;
+  border: 0;
+  width: 50px;
+  aspect-ratio: 1;
+  font-size:  2rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(89, 41, 41, 0.589);
+}
+
+.box_btn:hover {
+  box-shadow: 0 0 10px rgba(89, 41, 41, 0.589);
+  transition: box-shadow 200ms ease;
+  -webkit-transition: box-shadow 200ms ease;
+  -moz-transition: box-shadow 200ms ease;
+  -ms-transition: box-shadow 200ms ease;
+  -o-transition: box-shadow 200ms ease;
+}
+
+.reference {
+  text-align: end;
+}
